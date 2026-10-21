@@ -1,5 +1,7 @@
 # LoL ranked dashboards (Google Colab)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hopstiles/lol-stats/blob/main/lol_dashboards.ipynb)
+
 A notebook that pulls your League of Legends ranked games and shows two interactive dashboards right in Colab:
 
 - **Ranked review**: record and rank over time, win rate by deaths, first objectives, game length, role, champion and time of day; gold and deaths minute by minute; objective presence and deaths before objectives; and a short list of highlights worked out from your own games.
@@ -9,7 +11,7 @@ Both are also saved as standalone `.html` files (`ranked_review.html`, `champion
 
 ## Run it
 
-1. Open `lol_dashboards.ipynb` in Colab (on GitHub, open the file and use **Open in Colab**, or go to colab.research.google.com → GitHub tab and paste the repo URL).
+1. Click the **Open in Colab** badge above (or go to colab.research.google.com → GitHub tab and paste the repo URL).
 2. Get a development API key at [developer.riotgames.com](https://developer.riotgames.com). It expires every 24 hours.
 3. In Colab, open **Secrets** (key icon on the left), add `RIOT_API_KEY` with your key, and turn on **Notebook access**.
 4. In the first code cell, set `GAME_NAME`, `TAG_LINE`, `REGION` and `TIMEZONE`.
