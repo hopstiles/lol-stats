@@ -13,7 +13,7 @@ Both are also saved as standalone `.html` files (`ranked_review.html`, `champion
 
 1. Click the **Open in Colab** badge above (or go to colab.research.google.com → GitHub tab and paste the repo URL).
 2. Get a development API key at [developer.riotgames.com](https://developer.riotgames.com). It expires every 24 hours.
-3. In Colab, open **Secrets** (key icon on the left), add `RIOT_API_KEY` with your key, and turn on **Notebook access**.
+3. In Colab, open **Secrets** (key icon on the left), add `RIOT_API_KEY` with your key, and turn on **Notebook access**. If your key is already saved under another name, set `RIOT_KEY_SECRET` in the first code cell to that name.
 4. In the first code cell, set `GAME_NAME`, `TAG_LINE`, `REGION` and `TIMEZONE`.
 5. **Runtime → Run all.**
 
