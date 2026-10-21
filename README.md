@@ -40,15 +40,9 @@ Support,Zilean,Swain,3.42,2004,30d,Zilean counters page
 
 `edge` is the champion's opponent-adjusted win-rate edge in points (positive = favored). Bot ratings compare same roles only (ADC vs ADC, support vs support). To refresh it, re-read the counters pages and keep the same columns.
 
-## Before you push changes
-
-- **Clear outputs** (Edit → Clear all outputs) before committing: the dashboards embedded in the outputs contain your match data.
-- Never paste your API key into a cell; keep it in Colab Secrets.
 
 ## Notes
 
 - Ranked solo/duo only by default (`RANKED_SOLO_ONLY = True`); remakes and games under 5 minutes are left out.
 - "Near the objective" uses Riot's once-a-minute positions, so it means where you were 0–60 seconds before the kill.
 - OP.GG data comes from the unofficial `opgg.py` library and can break if OP.GG changes its site.
-
-Not endorsed by Riot Games. League of Legends is a trademark of Riot Games, Inc.
